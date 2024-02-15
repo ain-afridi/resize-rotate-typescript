@@ -389,12 +389,11 @@ function App() {
             }}
             id="card-div"
             ref={span}
-            onClick={() => {
-              debugger;
-              if (span.current) {
-                span.current.style.minHeight = "0px";
-              }
-            }}
+            // onClick={() => {
+            //   if (span.current) {
+            //     span.current.style.minHeight = "0px";
+            //   }
+            // }}
           >
             <span className="textInput word-wrap" contentEditable>
               ain
